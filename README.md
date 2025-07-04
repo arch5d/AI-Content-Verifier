@@ -35,11 +35,9 @@ A modern decentralized application (DApp) to **verify content authenticity** on-
 
 ## 🖼️ Screenshots
 
-*(Add your own images here)*
-
 | Main Screen | Verify Content | Check Reputation |
 | --- | --- | --- |
-| ![screenshot1](link) | ![screenshot2](link) | ![screenshot3](link) |
+| ![Screenshot 2025-07-04 194149](https://github.com/user-attachments/assets/1e9dc73e-7b72-4d8f-ae3c-4183f8421539) | ![Screenshot 2025-07-04 193705](https://github.com/user-attachments/assets/edf36e9f-bf1d-4649-ad2c-508c9e3c6351) | ![Screenshot 2025-07-04 193746](https://github.com/user-attachments/assets/4a3fa1b3-ece4-46b5-aa85-7b5666e19dd1) |
 
 ---
 
@@ -69,9 +67,13 @@ A modern decentralized application (DApp) to **verify content authenticity** on-
 ## 💻 Folder Structure
 
 📦 root
+
 ┣ 📜 index.html # DApp UI
+
 ┣ 📜 style.css # Modern styling
+
 ┣ 📜 app.js # ethers.js integration
+
 ┗ 📜 README.md # You're here!
 
 ---
@@ -104,7 +106,7 @@ A modern decentralized application (DApp) to **verify content authenticity** on-
 
 ## ✅ Demo Video
 
-🎥 *(Add link to Loom/YouTube video if you have one)*
+🎥 *(Coming Soon)*
 
 ---
 
@@ -131,9 +133,9 @@ This project is licensed under the MIT License.
 
 ## ❤️ Author
 
-Your Name / Team Name
+@arch5d
 
-[LinkedIn](#) • [Twitter](#) • [Website](#)
+[LinkedIn](#https://www.linkedin.com/in/archita-dayal-010676313/) • [Twitter](#https://x.com/DayalArchita) 
 
 ---
 
