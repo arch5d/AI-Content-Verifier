@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ContentVerifier DApp</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Ethers.js -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>ContentVerifier DApp</h1>
+    <p class="subtitle">On-chain Proof of AI/Human Content</p>
+  </header>
+
+  <main>
+    <section class="instructions">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Connect your MetaMask wallet.</li>
+        <li>Verify new content hash as AI-generated or Human-made.</li>
+        <li>Query any hash to see creator, AI status, timestamp.</li>
+        <li>Update your own content's AI status if needed.</li>
+        <li>Report any falsely marked content.</li>
+        <li>Check reputation of any creator address.</li>
+      </ol>
+    </section>
+
+    <section class="connect">
+      <button id="connectButton">🔗 Connect Wallet</button>
+      <p id="walletAddress">Not connected</p>
+    </section>
+
+    <section>
+      <h2>✅ Verify New Content</h2>
+      <input type="text" id="contentHash" placeholder="Enter Content Hash" />
+      <label>
+        <input type="checkbox" id="isAI" /> Is AI-generated
+      </label>
+      <button id="verifyButton">Verify Content</button>
+    </section>
+
+    <section>
+      <h2>🔎 Get Content Info</h2>
+      <input type="text" id="getHash" placeholder="Enter Content Hash" />
+      <button id="getButton">Fetch Content</button>
+      <pre id="contentResult"></pre>
+    </section>
+
+    <section>
+      <h2>✏️ Update AI Status</h2>
+      <input type="text" id="updateHash" placeholder="Enter Your Content Hash" />
+      <label>
+        <input type="checkbox" id="newIsAI" /> New AI Status
+      </label>
+      <button id="updateButton">Update Status</button>
+    </section>
+
+    <section>
+      <h2>🚨 Report False Status</h2>
+      <input type="text" id="reportHash" placeholder="Enter Content Hash" />
+      <button id="reportButton">Report</button>
+    </section>
+
+    <section>
+      <h2>⭐ Check Creator Reputation</h2>
+      <input type="text" id="repAddress" placeholder="Enter Creator Address" />
+      <button id="repButton">Check Reputation</button>
+      <pre id="repResult"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ContentVerifier DApp. Powered by Ethereum.</p>
+  </footer>
+</body>
+</html>
