@@ -18,7 +18,7 @@ A modern decentralized application (DApp) to **verify content authenticity** on-
 📜 **Deployed Address:**  
 [`0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47`](https://sepolia.etherscan.io/address/0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47)
 
-✅ Network: *Sepolia Testnet* (or your chosen network)
+✅ Network: *Sepolia Testnet* 
 
 ---
 
@@ -35,7 +35,7 @@ A modern decentralized application (DApp) to **verify content authenticity** on-
 
 ## 🖼️ Screenshots
 
-| Main Screen | Verify Content | Check Reputation |
+| Wallet Connect | Verify Content | Check Reputation |
 | --- | --- | --- |
 | ![Screenshot 2025-07-04 194149](https://github.com/user-attachments/assets/1e9dc73e-7b72-4d8f-ae3c-4183f8421539) | ![Screenshot 2025-07-04 193705](https://github.com/user-attachments/assets/edf36e9f-bf1d-4649-ad2c-508c9e3c6351) | ![Screenshot 2025-07-04 193746](https://github.com/user-attachments/assets/4a3fa1b3-ece4-46b5-aa85-7b5666e19dd1) |
 
